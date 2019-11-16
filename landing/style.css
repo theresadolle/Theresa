@@ -1,0 +1,100 @@
+/* Write some CSS below */
+h1 {
+  color:grey;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+h1:hover{
+	color: hsl(175,30%,50%);
+}
+
+h2 {
+  color: grey ;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin: 9px
+  }
+
+
+p {
+  color: hsl(262,70%,75%);
+  font-family:'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+a {
+  color: white ;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  text-align:center;
+}
+
+ a { 
+ 	text-decoration:none; 
+ }
+
+ a:hover{
+ 	color: hsl(54,100%,80%);
+ }
+
+ #banner {
+ 	background-image:linear-gradient(rgba(0,0,0,0.01), rgba(0,0,0,0.01)), url(https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2167&q=80);
+ 	background-position:center;
+ 	text-align: center; 
+ 	padding: 200px;
+ 	object-fit: cover;
+ 	}
+
+ .btn-purple {
+ 	background-color: hsl(262,70%,75%);
+ 	border-radius: 3px;
+ 	font-size: 16px;
+ 	box-shadow:4px;
+ 	padding: 8px;
+ 	text-align: center;
+ }
+ .container {
+ 	background-color: hsl(230, 4%, 94%);
+ 	color: red;
+ 	text-align: center; 
+ }
+ .card-white { 
+ 	background-color: white;
+ 	width: 250px;
+ 	padding: 30px;
+ 	margin: 16px auto;
+ 	border-radius: 4px;
+ 	box-shadow: 2px 3px 20px rgba(0,0,0,0,3);
+ }
+
+ .card-white img { 
+ width: 180px;
+ height: 180px;
+ object-fit: cover;
+ text-align: center; 
+ border-radius: 50%;
+ box-shadow: 6px 5px 20px rgba (0,0,0,6);
+ }
+
+#banner-text {
+	text-align: center; 
+}
+
+.cards {
+display:flex;
+justify-content: space-around;
+}
+
+footer {
+	background-color:hsl(262,30%,75%);
+  	color: white;
+  	padding: 20px;
+  	margin: 10px;
+  	font-family:'Roboto Condensed',sans-serif;
+  	font-size:15px;
+  	text-align:center;
+}
